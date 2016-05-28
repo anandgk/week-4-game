@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>Star Wars RPG Game by Anand Gopalakrishnan</title>
+
+        <!-- Custom CSS -->
+        <link href="assets/css/style.css" rel="stylesheet"> 
+    </head>
+    <body>
+
+        <!-- Header -->
+        <header>
+            <h2>*** STAR WARS RPG GAME ***</h2>
+            <hr>
+        </header>
+
+        <!-- Page Content -->
+        <div class="main">
+
+            <!-- Container Holder 1 { INITIAL AREA FOR ALL CHARACTERS } -->
+            <div class=container1>
+                <div class="sw-character1">
+                    <p class="sw-name1">Luke Skywalker</p>
+                    <img src="assets/images/swc1.jpg" class="sw-image1" width="75px" height="75px">
+                    <p class="sw-cap1">150</p>
+                </div>
+                <div class="sw-character2">
+                    <p class="sw-name2">Darth Vader</p>
+                    <img src="assets/images/swc2.jpg" class="sw-image2" width="75px" height="75px">
+                    <p class="sw-cap2">100</p>
+                </div>
+                <div class="sw-character3">
+                    <p class="sw-name3">Yoda</p>
+                    <img src="assets/images/swc3.jpg" class="sw-image3" width="75px" height="75px">
+                    <p class="sw-cap3">80</p>
+                </div>
+                <div class="sw-character4">
+                    <p class="sw-name4">Storm Trooper</p>
+                    <img src="assets/images/swc4.jpg" class="sw-image4" width="75px" height="75px">
+                    <p class="sw-cap4">200</p>
+                </div>
+                
+            </div>
+
+            <!-- Container Holder 2 { AREA FOR SELECTED CHARACTER } -->
+            <div class=container2>
+                <div class="txt-header1"><h3>Your Character</h3></div>
+            </div>
+
+            <!-- Container Holder 3 { AREA FOR CHARACTERS AVAILABLE AS ENEMIES TO ATTACK } -->
+            <div class=container3>
+                <div class="txt-header2"><h3>Enemies Available To Attack</h3></div>
+            </div>
+
+            <!-- Container Holder 4 { FIGHT SECTION AREA } -->
+            <div class=container4>
+                <div class="txt-header3"><h3>Fight Section</h3></div>
+                <button type="button" class="attack-me">Attack Me!</button>
+            </div>
+
+            <!-- Container Holder 5 { CHARACTER IN DEFENDER AREA } -->
+            <div class=container5>
+                <div class="txt-header4"><h3>Defender</h3></div>
+            </div>
+
+            <!-- Container Holder 6 { GAME MESSAGE AREA } --> 
+            <div class=container6>
+                <div class="txt-character"></div>
+                <div class="txt-defender"></div>
+                <button type="button" class="reset-me">Reset Me!</button>
+            </div>
+
+            <!-- Container Holder 7 { AREA FOR CHARACTERS DEFEATED } -->
+            <div class=container7>
+            </div>
+
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <!-- NO FOOTER USED -->
+        </footer>
+
+        <!-- JQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+        <!-- User defined -->
+        <script src="assets/js/swrpg.js"></script>
+
+    </body>
+</html>

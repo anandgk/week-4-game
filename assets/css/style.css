@@ -1,0 +1,64 @@
+
+body {
+    background-image: url(../images/swbackground.jpg); 
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+header h2 {
+    text-align: center;
+    color: #FF00CC;
+    letter-spacing: 20px;
+}
+
+.sw-character1,  .sw-character2, .sw-character3, .sw-character4  {
+    float: left;
+    border: 1px solid;
+    width: 120px;
+    height: 120px;
+    background-color: #fff;
+    padding-top: 0px;
+    border: 2px solid green;
+}
+
+.sw-name1, .sw-name2, .sw-name3, .sw-name4    {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.sw-image1, .sw-image2, .sw-image3, .sw-image4   {
+    margin-left: 20px;
+    text-align: center;
+}
+
+.sw-cap1, .sw-cap2, .sw-cap3, .sw-cap4  {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 2px;
+}
+
+.txt-header1, .txt-header2, .txt-header3, .txt-header4 {
+    clear: both;
+    padding-top: 2px;
+}
+
+.txt-character, .txt-defender {
+	clear: both;
+	font-size: 14px;
+	color: #80ff80;
+}
+
+h3 {
+    color: #99FFFF;
+}
+
+button {
+    background-color: green;
+    color: #fff;
+}
+
+
+
+
